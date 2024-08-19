@@ -1,0 +1,349 @@
+html {
+  background-color: #FFFFFF;
+  font-family: "Roboto";
+  padding: 0px;
+}
+
+body{
+  margin: auto;
+}
+p {
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+  .topnav {
+    background-color: #000000;
+    overflow-x: hidden;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    width: 340px;
+    height: 40px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .topnav a {
+    padding: 17px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #f1f1f1;
+  }
+
+  .topnav a:hover {
+    color: #000000;
+  }
+
+  .topnav img {
+    width: 50px;
+    height: 50px;
+    padding-top: 8px;
+  }
+
+
+
+  .fb {
+    position: absolute;
+    z-index: 3;
+    width: 75px;
+    height: 75px;
+    left: 340px;
+    top: 15px;
+  }
+  .logo {
+    background-color: #f1f1f1;
+    color: #000000;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom:25px;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    display: flex;
+    z-index: 2;
+  }
+
+  .logo p {
+    padding-top: 30px;
+  }
+
+  .phone {
+    font-family: "Anek Telugu", sans-serif;
+    font-size: 16px;
+  }
+
+  .krempel {
+    width: 440px;
+  }
+
+
+  .menu {
+    padding: 30px;
+    padding-bottom: 10px;
+    width: 60%;
+    font-size: 26px;
+  }
+
+  /* Menu */
+  .menu-1 {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    margin: auto;
+  }
+
+
+
+  .menu-1 img {
+    width: 150px;
+    margin: auto;
+    z-index: 2;
+  }
+
+  .menu-box-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 105px;
+    left: 8px;
+    z-index: 1;
+    margin: auto;
+  }
+
+  .menu-box1 {
+    width: 150px;
+    height: 100px;
+    background-color: #000000;
+    margin: auto;
+  }
+
+  .menu-box2 {
+    width: 150px;
+    height: 100px;
+    background-color: #000000;
+    margin: auto;
+  }
+  .menu-text1 {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .menu-2 {
+    display: flex;
+    justify-content: center;
+    z-index:1;
+  }
+
+  .menu-2 img {
+    width: 150px;
+    margin: auto;
+    z-index:1;
+  }
+
+  .menu-box-container2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 105px;
+    left: 8px;
+    z-index: 0;
+  }
+
+  .menu-box3 {
+    width: 150px;
+    height: 100px;
+    background-color: #000000;
+    margin: auto;
+  }
+
+  .menu-box4 {
+    width: 150px;
+    height: 100px;
+    background-color: #000000;
+    margin: auto;
+  }
+
+  .menu-text2 {
+    display: flex;
+    justify-content: center;
+  }
+
+.hours {
+  display: flex;
+  justify-content: center;
+  padding-top:40px;
+}
+
+.hours p {
+  padding-left: 40px;
+}
+
+
+.hoursimg {
+  width: 280px;
+  padding-left: 60px;
+}
+
+.location {
+  display: flex;
+  padding-top: 10px;
+}
+
+.locationtxt {
+  margin: 5px, 5px, 5px, 5px;
+}
+.mapbox {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mapimg {
+  width: 300px;
+}
+
+.map {
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+}
+
+
+.bar {
+  background-color: #000000;
+  position: relative;
+  height: 30px;
+  margin: 0px;
+}
+
+.reviews-box {
+  width: 100px;
+  height: 100px;
+  background-color: #f1f1f1;
+  position: absolute;
+  z-index: 5;
+  left: 25px;
+  padding: 10px;
+  margin: 10px;
+  top: 1100px;
+}
+
+.reviews {
+  padding-top: 10px;
+}
+.reviews img {
+  width: 430px;
+}
+
+}
+
+@media screen and (min-width: 601px) {
+.topnav {
+  background-color: #000000;
+  overflow-x: hidden;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  width: 700px;
+  height: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.topnav a {
+  padding: 17px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #f1f1f1;
+  justify-content:
+}
+
+.topnav a:hover {
+  color: #000000;
+}
+
+.topnav img {
+  width: 50px;
+  height: 50px;
+  padding-top: 8px;
+}
+
+.fb {
+  position: absolute;
+  z-index: 3;
+  width: 50px;
+  height: 50px;
+  left: 595px;
+  top: 20px;
+}
+.logo {
+  background-color: #f1f1f1;
+  color: #000000;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-bottom:25px;
+  font-family: "Sarina", sans-serif;
+  position: relative;
+  display: flex;
+  z-index: 2;
+}
+
+.logo p {
+  padding-top: 30px;
+}
+
+.phone {
+  font-family: "Anek Telugu", sans-serif;
+  font-size: 16px;
+}
+.bar {
+  background-color: #000000;
+  position: relative;
+  height: 30px;
+  margin: 0px;
+}
+
+.krempel {
+  width: 100%;
+}
+
+.menu {
+  padding: 30px;
+  width: 60%;
+  bottom: 30px;
+  font-weight: bold;
+}
+
+/* Menu */
+.menu-1 {
+  display: flex;
+}
+
+.menu-1 img {
+  width: 150px;
+  align-content: center;
+  justify-content: center;
+}
+
+.menu-text1 {
+  display: flex;
+  padding-left: 250px;
+}
+
+.menu-2 {
+  display: flex;
+}
+
+.menu-2 img {
+  width: 150px;
+  align-content: center;
+  justify-conter: center;
+}
+
+.menu-text2 {
+  display: flex;
+  padding-left: 250px;
+}
+
+}
