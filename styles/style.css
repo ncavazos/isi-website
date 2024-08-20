@@ -13,8 +13,7 @@ p {
 
 @media screen and (max-width: 600px) {
 
-
-
+/*  index.html     */
   .box {
     background-color: #000000;
     opacity: 0.5;
@@ -173,6 +172,16 @@ p {
 }
 .reviews img {
   width: 430px;
+}
+
+/* Semiosalong */
+
+.alter-text{
+  position: absolute;
+  z-index: 6;
+  top: 500px;
+  left: 110px;
+  transform: scale(0.8);
 }
 
 }
