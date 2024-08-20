@@ -25,6 +25,13 @@ p {
     right: 90px;
     top: 25px;
   }
+
+  .box2 {
+    position: absolute;
+    z-index: 6;
+    top: 500px;
+    transform: scale(.5);
+  }
   .fb {
     position: absolute;
     z-index: 3;
@@ -35,7 +42,7 @@ p {
   }
   .logo {
     color: #FFFFFF;
-    font-size: 30px;
+    font-size: 24px;
     padding-left: 20px;
     padding-bottom:25px;
     font-family: "Roboto", sans-serif;
