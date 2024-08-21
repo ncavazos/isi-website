@@ -48,7 +48,7 @@ p {
     position: absolute;
     display: flex;
     z-index: 4;
-    bottom: 680px;
+    bottom: 700px;
   }
 
   .logo p {
